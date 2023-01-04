@@ -15,7 +15,7 @@ Allow the daemon to synchronize, while we complete other steps.
 
 ## Step 2: Downloading TT-Miner
 
-Open another terminal within the same director, and download TT-Miner application:
+Open another terminal within the same director, and download TT-Miner application: [^2]
 
 ```
 wget https://github.com/TrailingStop/TT-Miner-release/releases/download/2022.4.2/TT-Miner-2022.4.2.tar.gz
@@ -170,11 +170,13 @@ And if you switch to the terminal with your daemon running, you should now see t
 
 [^1]: This guide assumes you've already installed, and can use. a CLI wallet and its daemon. If you haven't, see those guides [here](https://docs.zano.org/docs/install-a-zano-cli-wallet-ubuntu) and [here](https://docs.zano.org/docs/using-a-zano-cli-wallet), respectively.  
 
-[^2]: You'll need to install Cuda, if you get the following error:
+[^2]: Although still the lestest version, it is from 2019. YOU may need to search their Gitfor the latest version [here]([Release TTMiner · Minerx117/TTMiner · GitHub](https://github.com/Minerx117/TTMiner/releases/tag/v2.2.5)).
+
+[^3]: You'll need to install Cuda, if you get the following error:
 
 `./TT-Miner: error while loading shared libraries: libcuda.so.1: cannot open shared object file: No such file or directory.`
 
-[^3]: If you didn't use your wallet adress, you will get the following error:
+[^4]: If you didn't use your wallet adress, you will get the following error:
 
 <div>
 <a href="https://freeimage.host/"><img src="https://iili.io/HACX7iG.png" alt="HACX7iG.png" border="0" /></a>

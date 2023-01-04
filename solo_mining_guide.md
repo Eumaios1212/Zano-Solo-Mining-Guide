@@ -175,12 +175,9 @@ And if you switch to the terminal with your daemon running, you should now see t
 
 [^3]: You'll need to install Cuda, if you get the following error:
 
-`./TT-Miner: error while loading shared libraries: libcuda.so.1: cannot open shared object file: No such file or directory.`
+**./TT-Miner: error while loading shared libraries: libcuda.so.1:
+cannot open shared object file: No such file or directory.**
 
+[^4]: If you didn't use your wallet adress, you will get the following error:****
 
-
-[^4]: If you didn't use your wallet adress, you will get the following error:
-
-<div>
-<a href="https://freeimage.host/"><img src="https://iili.io/HACX7iG.png" alt="HACX7iG.png" border="0" /></a>
-</div>
+**Stratum server: invalid miner address given: [your_invalid_address]**

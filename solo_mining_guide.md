@@ -4,9 +4,9 @@
 <h1>Solo Mining on an Linux Server<h1>
 </div>
 
-## Step 1: Synchronize the Daemon [^1]
+## Step 1: Synchronize the Daemon
 
-Open a terminal in the directory with `zanod`, and run it:
+Open a terminal in the directory with `zanod`, and run it: [^1]
 
 ```
 ./zanod
@@ -53,7 +53,7 @@ Note the contents. They provide the basic instructions for setting up TT-Miner (
 
 Exit Nano (`ctl+x`) and close the terminal.
 
-## Step 3: Flagging your daemon for Mining
+## Step 3: Flagging your Daemon for Mining
 
 Once your node is fully synced, stop it (`ctl+c`). In the same terminal, restart `zanod`  with the following flags, taken from the above `ZANO-SOLO.sh` file:
 
@@ -168,6 +168,8 @@ And if you switch to the terminal with your daemon running, you should now see t
 <div align=center>
 <h1>Congratulations, you're now solo mining Zano!<h1>
 </div>
+
+
 
 [^1]: This guide assumes you've already installed, and can use. a CLI wallet and its daemon. If you haven't, see those guides [here](https://docs.zano.org/docs/install-a-zano-cli-wallet-ubuntu) and [here](https://docs.zano.org/docs/using-a-zano-cli-wallet), respectively.  
 

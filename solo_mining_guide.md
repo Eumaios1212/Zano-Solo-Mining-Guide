@@ -169,9 +169,9 @@ And if you switch to the terminal with your daemon running, you should now see t
 <h1>Congratulations, you're now solo mining Zano!<h1>
 </div>
 
-[^1]: This guide assumes you've already installed, and can use. a CLI wallet and its daemon. If you haven't, see those guides [here](https://docs.zano.org/docs/install-a-zano-cli-wallet-ubuntu) and [here](https://docs.zano.org/docs/using-a-zano-cli-wallet), respectively.  
+[^1]: This guide assumes you've already installed, and can use, a CLI wallet and its daemon. If you haven't, see those guides [here](https://docs.zano.org/docs/install-a-zano-cli-wallet-ubuntu) and [here](https://docs.zano.org/docs/using-a-zano-cli-wallet), respectively.  
 
-[^2]: Although still the lestest version, it is from 2019. You may need to search their Github for the latest version [here]([Release TTMiner · Minerx117/TTMiner · GitHub](https://github.com/Minerx117/TTMiner/releases/tag/v2.2.5)).
+[^2]: Although still the lestest version, it is from 2019. You may need to search their Github for the latest version [here](https://github.com/Minerx117/TTMiner/releases/tag/v2.2.5).
 
 [^3]: You'll need to install Cuda, if you get the following error: ./TT-Miner: error while loading shared libraries: libcuda.so.1: cannot open shared object file: No such file or directory.
 

@@ -1,5 +1,6 @@
 <div>
 <div align=center>
+<a href="https://freeimage.host/"><img src="https://iili.io/HA8wRPS.png" alt="HA8wRPS.png" border="0" /></a>
 <h1>Solo Mining on an Linux Server<h1>
 </div>
 
@@ -62,9 +63,9 @@ Once your node is fully synced, stop it (`ctl+c`). In the same terminal, restart
 
 Note the above has two important adjustments:
 
-1. You must account for Linux, substituing `zanode.exe` with `./zanod`. 
+- You must account for Linux, substituing `zanode.exe` with `./zanod`. 
 
-2. You must replace `<YOUR_WALLET_ID>`, with wallet's **receive address** (note this is neither your Rig nor your wallet name).
+- You must replace `<YOUR_WALLET_ID>`, with wallet's **receive address** (note this is neither your Rig nor your wallet name).
 
 If you do not place your receive address there, you may get an error such as the following:
 

@@ -122,7 +122,7 @@ sudo ubuntu-drivers autoinstall
 
 You will now need to reboot your system for these changes to be made (remember to stop the daemon running on the other terminal, if so).
 
-Unless you already have Cuda Advanced Libraries installed on your Linux machine, we have one additional installation before running TT-Miner: [^2]
+Unless you already have Cuda Advanced Libraries installed on your Linux machine, we have one additional installation before running TT-Miner: [^3]
 
 ```
 $ sudo apt install nvidia-cuda-toolkit
@@ -142,7 +142,7 @@ Here too, we must make an important correction. Recall the instructions above fr
 > 
 > .TT-Miner -luck -coin ZANO -P <YOUR_WORKER_NAME>@127.0.0.1:11555
 
-In place of **<YOUR_WORKER_NAME>** (e.g., "eumaios" in the example below) **<u>you must put your wallet's receive address</u>**. [^3]
+In place of **<YOUR_WORKER_NAME>** (e.g., "eumaios" in the example below) **<u>you must put your wallet's receive address</u>**. [^4] 
 
 Return to the directory with both `ZANO-SOLO.sh` and `TT-Miner` and open a terminal. 
 
@@ -169,15 +169,9 @@ And if you switch to the terminal with your daemon running, you should now see t
 <h1>Congratulations, you're now solo mining Zano!<h1>
 </div>
 
-
-
 [^1]: This guide assumes you've already installed, and can use. a CLI wallet and its daemon. If you haven't, see those guides [here](https://docs.zano.org/docs/install-a-zano-cli-wallet-ubuntu) and [here](https://docs.zano.org/docs/using-a-zano-cli-wallet), respectively.  
 
-
-
-[^2]: Although still the lestest version, it is from 2019. YOU may need to search their Gitfor the latest version [here]([Release TTMiner · Minerx117/TTMiner · GitHub](https://github.com/Minerx117/TTMiner/releases/tag/v2.2.5)).
-
-
+[^2]: Although still the lestest version, it is from 2019. You may need to search their Github for the latest version [here]([Release TTMiner · Minerx117/TTMiner · GitHub](https://github.com/Minerx117/TTMiner/releases/tag/v2.2.5)).
 
 [^3]: You'll need to install Cuda, if you get the following error:
 

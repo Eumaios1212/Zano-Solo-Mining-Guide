@@ -1,9 +1,9 @@
 <div>
 <div align=center>
-<h1>Solo Mining on an Linux Server [^1]<h1>
+<h1>Solo Mining on an Linux Server<h1>
 </div>
 
-## Step 1: Synchronize the Daemon
+## Step 1: Synchronize the Daemon [^1]
 
 Open a terminal in the directory with `zanod`, and run it:
 

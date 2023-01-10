@@ -19,19 +19,19 @@ Allow the daemon to synchronize, while we complete other steps.
 Open another terminal within the same director, and download TT-Miner application: [^2]
 
 ```
-wget https://github.com/TrailingStop/TT-Miner-release/releases/download/2022.4.2/TT-Miner-2022.4.2.tar.gz
+wget https://github.com/TrailingStop/TT-Miner-release/releases/download/2023.1.0/TT-Miner-2023.1.0.tar.gz
 ```
 
 Extract the .tar file:
 
 ```
-tar -xf TT-Miner-2022.4.2.tar.gz
+tar -xf TT-Miner-2023.1.0.tar.gz
 ```
 
 Delete the original .tar file:
 
 ```
-rm TT-Miner-2022.4.2.tar.gz
+rm TT-Miner-2023.1.0.tar.gz
 ```
 
 Enter the new TT-Miner directory, and list it's contents (`ls`). Using Nano (or other text editor), open `ZANO-SOLO.sh`:
@@ -175,4 +175,4 @@ And if you switch to the terminal with your daemon running, you should now see t
 
 [^3]: You'll need to install Cuda, if you get the following error: ./TT-Miner: error while loading shared libraries: libcuda.so.1: cannot open shared object file: No such file or directory.
 
-[^4]: If you didn't use your wallet adress, you will get the following error: Stratum server: invalid miner address given: [your_invalid_address].
+[^4]: If you didn't use your wallet adress, you will get the following error: Stratum server: invalid miner address given: [your_invalid_address]. 

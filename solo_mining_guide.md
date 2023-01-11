@@ -136,20 +136,12 @@ nvcc --version
 
 OK! We're finally ready to run TT-Miner.
 
-Here too, we must make an important correction. Recall the instructions above from `ZANO-SOLO.sh`: 
+Returning to the directory with both `ZANO-SOLO.sh` and `TT-Miner` , open a terminal. 
 
-> rem TT commandline
-> 
-> .TT-Miner -luck -coin ZANO -P <YOUR_WORKER_NAME>@127.0.0.1:11555
-
-In place of **<YOUR_WORKER_NAME>** (e.g., "eumaios" in the example below) **<u>you must put your wallet's receive address</u>**. [^4] 
-
-Return to the directory with both `ZANO-SOLO.sh` and `TT-Miner` and open a terminal. 
-
-Substituting your wallet's adress, give the command: 
+Give the command: 
 
 ```
-./TT-Miner -luck -coin ZANO -P <wallet_address>@127.0.0.1:11555
+./TT-Miner -luck -coin ZANO -u miner -o 127.0.0.1:11555
 ```
 
 You should be mining and seeing something like this:
@@ -175,4 +167,4 @@ And if you switch to the terminal with your daemon running, you should now see t
 
 [^3]: You'll need to install Cuda, if you get the following error: ./TT-Miner: error while loading shared libraries: libcuda.so.1: cannot open shared object file: No such file or directory.
 
-[^4]: If you didn't use your wallet adress, you will get the following error: Stratum server: invalid miner address given: [your_invalid_address]. 
+ 

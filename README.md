@@ -1,3 +1,3 @@
-# Zano-Solo-Mining-Guide
+# Zano Solo-Mining Guides
 
- Guide for Zano solo mining (without a pool) on Linux. Besides providing step-by-step instructions, it also notes a few easy pitfalls new users are likely to encounter. 
+These guide explain Zano solo mining on Linux with either Nvidia or AMD GPUs. They provide step-by-step instructions, noting certain pitfalls new users are likely to encounter. 

@@ -58,7 +58,7 @@ In order to successfully begin mining with an AMD GPU, one must not only use old
    <a href="https://freeimage.host/"><img src="https://iili.io/H1TV9xS.jpg" alt="H1TV9xS.jpg" border="0" /></a>
    </div>
 
-4. After reboot, return to Synaptic. We need to hunt down all other Kernals, as well as any associated dependencies, i.e., all images, headers, modules, and modules-extras. Search for: "****5.15.0-****". Results will show all possible kernels and dependencies, including those with a green box that are currently installed on your machine:
+4. After reboot, return to Synaptic. We need to hunt down all other Kernals, as well as any associated dependencies, i.e., all images, headers, modules, and modules-extras. Search for: "****5.15.0-****" (it may also be helpful to click the "S" in the upper left corner--this will sort your packages). Results will show all possible kernels and dependencies, including those with a green box that are currently installed on your machine:
    
    <div>
    <a href="https://freeimage.host/"><img src="https://iili.io/H1V7PMG.png" alt="H1V7PMG.png" border="0"></a>

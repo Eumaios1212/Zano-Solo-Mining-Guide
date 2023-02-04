@@ -15,11 +15,17 @@ In order to successfully begin mining with an AMD GPU, one must not only use old
 
 1. So let's begin by switching kernels. The easiest way to do this is with the Synaptic Package Manager. Synaptic, however, doesn't come installed on Ubuntu 20.04, so unless you have already installed it, give:
    
-   `sudo apt update`
+   ```
+   sudo apt update
+   ```
    
-   `sudo apt upgrade`
+   ```
+   sudo apt upgrade
+   ```
    
-   `sudo apt install synaptic`
+   ```
+   sudo apt install synaptic
+   ```
 
 2. Now open Synaptic and click on search. Search for "linux 5.15.0-46". You should see a screen like the following:
    
@@ -69,9 +75,13 @@ In order to successfully begin mining with an AMD GPU, one must not only use old
    
    Apply your changes and close Synaptic. Lastly, just to be sure that you've removed all unneeded dependencies, give:
    
-   `sudo apt autoremove`
+   ```
+   sudo apt autoremove
+   ```
    
-   `sudo reboot`
+   ```
+   sudo reboot
+   ```
 
 5. Now that we have the proper kernel installed, and all others removed, we can download and install the AMD driver installer. Go to your Downloads directory and give the command:
    
@@ -81,7 +91,7 @@ In order to successfully begin mining with an AMD GPU, one must not only use old
 
         Now install it:
 
-        `sudo apt install ./amdgpu-install_22.20.50200-1_all.deb`
+ `sudo apt install ./amdgpu-install_22.20.50200-1_all.deb`
 
 6. If successful, install the driver itself:
    

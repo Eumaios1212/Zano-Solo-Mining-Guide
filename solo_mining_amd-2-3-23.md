@@ -3,7 +3,7 @@
 <h1>Solo Mining with AMD (Ubuntu 20.04)<h1>
 </div>
 
-If your rig runs AMD GPUs, you will need to use Wildrig miner, which is currently the only one that works with AMD. With Wildrig, however, direct solo mining isn't possible. So we'll thus be mining through Newpool, which has a solo mining option.^1
+If your rig runs AMD GPUs, you will need to use Wildrig miner, which is currently the only one that works with AMD. With Wildrig, however, direct solo mining isn't possible. So we'll thus be mining through Newpool, which has a solo mining option.[^1]
 
 ## Step 1: AMD Driver Installation
 
@@ -11,7 +11,7 @@ Since Ubuntu doesn't come with AMD's OpenCL driver, which is necessary for minin
 
 Installation of this driver, however, is an sure headache for almost anyone except the most advanced Linux user. Neither AMD's documentation nor their software is up to date with current Ubuntu distros.
 
-In order to successfully begin mining with an AMD GPU, one must not only use older driver software (22.20), but also run Linux kernel 5.15.0-46 ****with no other installed kernels****. Amdgpu-dkms attempts to install on all kernels; but since it is not compatible with them all, it fails on a single kernal, thus haulting the entire install process.^2
+In order to successfully begin mining with an AMD GPU, one must not only use older driver software (22.20), but also run Linux kernel 5.15.0-46 ****with no other installed kernels****. Amdgpu-dkms attempts to install on all kernels; but since it is not compatible with them all, it fails on a single kernal, thus haulting the entire install process.[^2]
 
 1. So let's begin by switching kernels. The easiest way to do this is with the Synaptic Package Manager. Synaptic, however, doesn't come installed on Ubuntu 20.04, so unless you have already installed it, give:
    
@@ -111,7 +111,7 @@ In order to successfully begin mining with an AMD GPU, one must not only use old
    sudo apt install clinfo
    ```
    
-   Now let's check for our GPU:^3
+   Now let's check for our GPU:[^3]
    
    ```
    sudo clinfo
@@ -149,7 +149,7 @@ Remove the original .tar file:
 rm wildrig-multi-linux-0.36.6b.tar.xz
 ```
 
-You're ready to begin mining. Give the following command in your Wildrig directory, substituting your own address for "wallet address":^4
+You're ready to begin mining. Give the following command in your Wildrig directory, substituting your own address for "wallet address":[^4]
 
 ```
 sudo ./wildrig-multi --print-full --algo progpowz -o stratum+tcp://minenice.newpool.pw:1287 -u solo:wallet_address.ZanoSolo -p x

@@ -98,7 +98,7 @@ In order to successfully begin mining with an AMD GPU, one must not only use old
 6. If successful, install the driver itself:
    
    ```
-   amdgpu-install --opencl=legacy,rocr --usecase=workstation,graphics
+   amdgpu-install --opencl=legacy,rocr --usecase=workstation,graphics --no-32
    ```
    
    ```

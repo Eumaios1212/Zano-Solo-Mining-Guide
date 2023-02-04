@@ -88,24 +88,34 @@ In order to successfully begin mining with an AMD GPU, one must not only use old
    ```
    wget http://repo.radeon.com/amdgpu-install/22.20/ubuntu/focal/amdgpu-install_22.20.50200-1_all.deb
    ```
-
-        Now install it:
-
- `sudo apt install ./amdgpu-install_22.20.50200-1_all.deb`
+   
+   Now install it:
+   
+   ```
+   sudo apt install ./amdgpu-install_22.20.50200-1_all.deb
+   ```
 
 6. If successful, install the driver itself:
    
-   `amdgpu-install --opencl=legacy,rocr --usecase=workstation,graphics`
+   ```
+   amdgpu-install --opencl=legacy,rocr --usecase=workstation,graphics
+   ```
    
-   `sudo reboot`
+   ```
+   sudo reboot
+   ```
 
 7. To determine whether the driver was properly installed, we need the application ****clinfo****. So let's install that and reboot:
    
-   `sudo apt install clinfo`
+   ```
+   sudo apt install clinfo
+   ```
    
    Now let's check for our GPU:^3
    
-   `sudo clinfo`
+   ```
+   sudo clinfo
+   ```
    
    You should see something like the following, with OpenCL under both "Platform version" and "Device version."
    
@@ -117,7 +127,11 @@ In order to successfully begin mining with an AMD GPU, one must not only use old
 
 Create a directory for Wildrig within your main Zano directory:
 
-`mkdir wildrig`
+```
+mkdir wildrig
+```
+
+
 
 Within it, download Wildrig:
 

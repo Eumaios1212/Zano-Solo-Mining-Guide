@@ -71,7 +71,7 @@ If you do not place your receive address there, you may get an error such as the
 
 <div>
 <div align=center>
-<img src="images/nvidia-wrong_wallet.png">
+<img src="images/nvidia-wrong_wallet.png" width="800">
 </div>
 
 <div>
@@ -82,19 +82,19 @@ If you do not place your receive address there, you may get an error such as the
 But if there are no other problems, the daemon should start and you'll see the following screens:
 
 <div>
-<img src="images/nvidia-daemon1.png">
+<img src="images/nvidia-daemon1.png" width="800">
 </div>
 
 <div>
-<img src="images/nvidia-daemon2.png">
+<img src="images/nvidia-daemon2.png" width="800">
 </div>
 
 <div>
-<img src="images/nvidia-daemon3.png">
+<img src="images/nvidia-daemon3.png" width="800">
 </div>
 
 <div>
-<img src="images/nvidia-daemon4.png">
+<img src="images/nvidia-daemon4.png" width="800">
 </div>
 
 ## Step 4: Starting TT-Miner
@@ -110,7 +110,7 @@ sudo ubuntu-drivers devices
 You should see something like the following:
 
 <div>
-<img src="images/nvidia-installed_drivers.png">
+<img src="images/nvidia-installed_drivers.png" width="800">
 </div>
 
 If you already have proprietary drivers, you can skip the next three sub-steps.
@@ -148,13 +148,13 @@ Give the command:
 Your miner should start, displaying something like this:
 
 <div>
-<img src="images/nvidia-ttminer.png">
+<img src="images/nvidia-ttminer.png" width="800">
 </div>
 
 And if you switch to the terminal with your daemon running, you should now see this:
 
 <div>
-<img src="images/nvidia-daemon_mining.png">
+<img src="images/nvidia-daemon_mining.png" >
 </div>
 
 <div>

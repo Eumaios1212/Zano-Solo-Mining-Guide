@@ -50,20 +50,14 @@ In order to successfully begin mining with an AMD GPU, one must not only use old
    <div>
    <img src="images/amd-grub1.jpg">
    </div>
-   
-   <div>
-   
-   <div>
-   
-   
-   
-   </div>
-   
+
+</div>
+
    Select "Advanced options for Ubuntu".
-   
+
    Then select the kernel version we just installed: Linux 5.15.0-46-generic [note: ****not (recovery mode)****]:
-   
-   <div>
+
+<div>
    <img src="images/amd-grub2.jpg">
    </div>
 

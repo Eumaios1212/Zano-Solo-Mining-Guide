@@ -172,14 +172,14 @@ Now go to https://newpool.pw/zano/#worker_stats and enter your wallet address; y
 <h1>Congratulations, you're solo mining Zano!<h1>
 </div>
 
-[^1] Be aware that Newpool has a 1.0% pool fee.
+[^1]: Be aware that Newpool has a 1.0% pool fee.
 
-[^2] In testing out various kernels, I found that 46 worked on bare metal, but I could not replicate that success in a VM. The VM required kernel 43. You may have to play around with various kernels. If 46 doesn't work for you, try 43. YOu will know you need to switch kernel, if your installation fails with the following error:
+[^2]: In testing out various kernels, I found that 46 worked on bare metal, but I could not replicate that success in a VM. The VM required kernel 43. You may have to play around with various kernels. If 46 doesn't work for you, try 43. YOu will know you need to switch kernel, if your installation fails with the following error:
 
 `Building initial module for 5.15.0-58-generic`
 
 `Error! Bad return status for module build on kernel: 5.15.0-58-generic (x86_64)`
 
-[^3] If you don't include `sudo` in this command, it's likely that your GPU will not be displayed under devices.
+[^3]: If you don't include `sudo` in this command, it's likely that your GPU will not be displayed under devices.
 
-[^4] Note again the need to give `sudo` here. Also, the port 1287 is used here, which is for high end graphics cards such as RX 470, 480, 570, 580, VEGA 56/64 and better. Port 1157 should be used for mid- and low-grade GPUs such as RX 460, 550, and 560.
+[^4]: Note again the need to give `sudo` here. Also, the port 1287 is used here, which is for high end graphics cards such as RX 470, 480, 570, 580, VEGA 56/64 and better. Port 1157 should be used for mid- and low-grade GPUs such as RX 460, 550, and 560.

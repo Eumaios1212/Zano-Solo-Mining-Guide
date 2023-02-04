@@ -24,7 +24,7 @@ In order to successfully begin mining with an AMD GPU, one must not only use old
 2. Now open Synaptic and click on search. Search for "linux 5.15.0-46". You should see a screen like the following:
    
    <div>
-   <img src="images/amd-kernel_selection.png">
+   <img src="images/amd-kernel_selection.png" width="800">
    </div>
    
    <div>
@@ -48,7 +48,7 @@ In order to successfully begin mining with an AMD GPU, one must not only use old
 3. To use this kernal, we need to shut down and reboot into grub. While rebooting, tap the ****del**** key until you enter the grub screen:
    
    <div>
-   <img src="images/amd-grub1.jpg">
+   <img src="images/amd-grub1.jpg" width="800">
    </div>
 
 </div>
@@ -58,13 +58,13 @@ In order to successfully begin mining with an AMD GPU, one must not only use old
    Then select the kernel version we just installed: Linux 5.15.0-46-generic [note: ****not (recovery mode)****]:
 
 <div>
-   <img src="images/amd-grub2.jpg">
-   </div>
+<img src="images/amd-grub2.jpg" width="800">
+</div>
 
 4. After reboot, return to Synaptic. We need to hunt down all other Kernals, as well as any associated dependencies, i.e., all images, headers, modules, and modules-extras. Search for: "****5.15.0-****". Results will show all possible kernels and dependencies, including those with a green box that are currently installed on your machine:
    
    <div>
-   <img src="images/amd-kernel_removal.png">
+   <img src="images/amd-kernel_removal.png" width="800">
    </div>
    
    Go through the list, marking for removal all installed kernels and their dependencies other than kernel ****5.15.0-46**** and its dependencies. Note: ****it is extremely important that you not also remove kernel 46! Doing so will fatally crash your rig.**** To be safe, after you've determined which kernels are installed on your machine, do a search delimiting it to one particular kernel at a time, e.g., 5.15.0-43, then 5.15.0-58, etc.
@@ -85,28 +85,24 @@ In order to successfully begin mining with an AMD GPU, one must not only use old
 
         `sudo apt install ./amdgpu-install_22.20.50200-1_all.deb`
 
-        `sudo apt update`
-
 6. If successful, install the driver itself:
    
    `amdgpu-install --opencl=legacy,rocr --usecase=workstation,graphics`
    
-   `sudo apt update`
+   `sudo reboot`
 
-7. Time to see whether the driver is properly installed. To do so, we need the application ****clinfo****. So let's install that and reboot:
+7. To determine whether the driver was properly installed, we need the application ****clinfo****. So let's install that and reboot:
    
    `sudo apt install clinfo`
    
-   `sudo reboot`
-
-8. Now let's check for our GPU:^3
+   Now let's check for our GPU:^3
    
    `sudo clinfo`
    
    You should see something like the following, with OpenCL under both "Platform version" and "Device version."
    
    <div>
-   <img src="images/amd-clinfo.png">
+   <img src="images/amd-clinfo.png" width="800">
    </div>
 
 ## Step 2: Installing & Running Wildrig Miner
@@ -142,13 +138,13 @@ sudo ./wildrig-multi --print-full --algo progpowz -o stratum+tcp://minenice.newp
 The miner should start, displaying something like this:
 
 <div>
-<img src="images/amd-wildrig_running.png">
+<img src="images/amd-wildrig_running.png" width="800">
 </div>
 
 Now go to https://newpool.pw/zano/#worker_stats and enter your wallet address; you should see your miner stats:
 
 <div>
-<img src="images/amd-newpool_solo_mining.png">
+<img src="images/amd-newpool_solo_mining.png" width="800">
 </div>
 
 <div>

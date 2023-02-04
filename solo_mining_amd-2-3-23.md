@@ -1,5 +1,3 @@
-<div>
-
 <div align=center>
 <a href="https://freeimage.host/"><img src="https://iili.io/HA8wRPS.png" alt="HA8wRPS.png" border="0" /></a>
 <h1>Solo Mining with AMD (Ubuntu 20.04)<h1>
@@ -26,7 +24,11 @@ In order to successfully begin mining with an AMD GPU, one must not only use old
 2. Now open Synaptic and click on search. Search for "linux 5.15.0-46". You should see a screen like the following:
    
    <div>
-   <a href="https://freeimage.host/"><img src="https://iili.io/H1T0DZX.png" alt="H1T0DZX.png" border="0" /></a>
+   <img src="images/amd-kernel_selection.png">
+   </div>
+   
+   <div>
+   <a href="https://github.com/Eumaios1212/Zano-Solo-Mining-Guide/blob/add-res/images/amd-kernel_selection.png"a>
    </div>
    
    In the above image, five packages are marked for installation:
@@ -46,7 +48,14 @@ In order to successfully begin mining with an AMD GPU, one must not only use old
 3. To use this kernal, we need to shut down and reboot into grub. While rebooting, tap the ****del**** key until you enter the grub screen:
    
    <div>
-   <a href="https://freeimage.host/"><img src="https://iili.io/H1TM1cb.jpg" alt="H1TM1cb.jpg" border="0" /></a>
+   <img src="images/amd-grub1.jpg">
+   </div>
+   
+   <div>
+   
+   <div>
+   
+   
    
    </div>
    
@@ -55,13 +64,13 @@ In order to successfully begin mining with an AMD GPU, one must not only use old
    Then select the kernel version we just installed: Linux 5.15.0-46-generic [note: ****not (recovery mode)****]:
    
    <div>
-   <a href="https://freeimage.host/"><img src="https://iili.io/H1TV9xS.jpg" alt="H1TV9xS.jpg" border="0" /></a>
+   <img src="images/amd-grub2.jpg">
    </div>
 
 4. After reboot, return to Synaptic. We need to hunt down all other Kernals, as well as any associated dependencies, i.e., all images, headers, modules, and modules-extras. Search for: "****5.15.0-****". Results will show all possible kernels and dependencies, including those with a green box that are currently installed on your machine:
    
    <div>
-   <a href="https://freeimage.host/"><img src="https://iili.io/H1V7PMG.png" alt="H1V7PMG.png" border="0"></a>
+   <img src="images/amd-kernel_removal.png">
    </div>
    
    Go through the list, marking for removal all installed kernels and their dependencies other than kernel ****5.15.0-46**** and its dependencies. Note: ****it is extremely important that you not also remove kernel 46! Doing so will fatally crash your rig.**** To be safe, after you've determined which kernels are installed on your machine, do a search delimiting it to one particular kernel at a time, e.g., 5.15.0-43, then 5.15.0-58, etc.
@@ -103,7 +112,7 @@ In order to successfully begin mining with an AMD GPU, one must not only use old
    You should see something like the following, with OpenCL under both "Platform version" and "Device version."
    
    <div>
-   <a href="https://freeimage.host/"><img src="https://iili.io/H1TXISa.png" alt="H1TXISa.png" border="0" /></a>
+   <img src="images/amd-clinfo.png">
    </div>
 
 ## Step 2: Installing & Running Wildrig Miner
@@ -139,13 +148,13 @@ sudo ./wildrig-multi --print-full --algo progpowz -o stratum+tcp://minenice.newp
 The miner should start, displaying something like this:
 
 <div>
-<a href="https://freeimage.host/"><img src="https://iili.io/H1e9iBI.png" alt="H1e9iBI.png" border="0" /></a>
+<img src="images/amd-wildrig_running.png">
 </div>
 
 Now go to https://newpool.pw/zano/#worker_stats and enter your wallet address; you should see your miner stats:
 
 <div>
-<a href="https://freeimage.host/"><img src="https://iili.io/H1eCRiG.png" alt="H1eCRiG.png" border="0" /></a>
+<img src="images/amd-newpool_solo_mining.png">
 </div>
 
 <div>

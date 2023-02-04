@@ -131,8 +131,6 @@ Create a directory for Wildrig within your main Zano directory:
 mkdir wildrig
 ```
 
-
-
 Within it, download Wildrig:
 
 ```

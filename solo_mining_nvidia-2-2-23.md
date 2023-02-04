@@ -71,7 +71,7 @@ If you do not place your receive address there, you may get an error such as the
 
 <div>
 <div align=center>
-<a href="https://freeimage.host/"><img src="https://iili.io/HABtOzX.png" alt="HABtOzX.png" border="0" /></a>
+<img src="images/nvidia-wrong_wallet.png">
 </div>
 
 <div>
@@ -82,18 +82,19 @@ If you do not place your receive address there, you may get an error such as the
 But if there are no other problems, the daemon should start and you'll see the following screens:
 
 <div>
-<a href="https://freeimage.host/"><img src="https://iili.io/HAnpVG1.png" alt="HAnpVG1.png" border="0" /></a>
+<img src="images/nvidia-daemon1.png">
 </div>
 
 <div>
-<a href="https://freeimage.host/"><img src="https://iili.io/HACYF5J.png" alt="HACYF5J.png" border="0" /></a>
+<img src="images/nvidia-daemon2.png">
 </div>
 
 <div>
-<a href="https://freeimage.host/"><img src="https://iili.io/HAo7EDx.png" alt="HAo7EDx.png" border="0" /></a></div>
+<img src="images/nvidia-daemon3.png">
+</div>
 
 <div>
-<a href="https://freeimage.host/"><img src="https://iili.io/HACYEge.png" alt="HACYEge.png" border="0" /></a>
+<img src="images/nvidia-daemon4.png">
 </div>
 
 ## Step 4: Starting TT-Miner
@@ -109,7 +110,7 @@ sudo ubuntu-drivers devices
 You should see something like the following:
 
 <div>
-<a href="https://freeimage.host/"><img src="https://iili.io/HAnFeov.png" alt="HAnFeov.png" border="0" /></a>
+<img src="images/nvidia-installed_drivers.png">
 </div>
 
 If you already have proprietary drivers, you can skip the next three sub-steps.
@@ -147,13 +148,13 @@ Give the command:
 Your miner should start, displaying something like this:
 
 <div>
-<a href="https://freeimage.host/"><img src="https://iili.io/HAnj3fs.png" alt="HAnj3fs.png" border="0" /></a>
+<img src="images/nvidia-ttminer.png">
 </div>
 
 And if you switch to the terminal with your daemon running, you should now see this:
 
 <div>
-<a href="https://freeimage.host/"><img src="https://iili.io/HAnw5CX.png" alt="HAnw5CX.png" border="0" /></a>
+<img src="images/nvidia-daemon_mining.png">
 </div>
 
 <div>

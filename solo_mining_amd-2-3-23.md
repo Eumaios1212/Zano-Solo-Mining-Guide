@@ -50,16 +50,13 @@ In order to successfully begin mining with an AMD GPU, one must not only use old
    <div>
    <img src="images/amd-grub1.jpg" width="800">
    </div>
-
-</div>
-
+   
    Select "Advanced options for Ubuntu".
-
-   Then select the kernel version we just installed: Linux 5.15.0-46-generic [note: ****not (recovery mode)****]:
-
-<div>
-<img src="images/amd-grub2.jpg" width="800">
-</div>
+   Then select the kernel version we just installed: Linux 5.15.0-46-generic     [note: ****not (recovery mode)****]:
+   
+   <div>
+    <img src="images/amd-grub2.jpg" width="800">
+    </div>
 
 4. After reboot, return to Synaptic. We need to hunt down all other Kernals, as well as any associated dependencies, i.e., all images, headers, modules, and modules-extras. Search for: "****5.15.0-****". Results will show all possible kernels and dependencies, including those with a green box that are currently installed on your machine:
    

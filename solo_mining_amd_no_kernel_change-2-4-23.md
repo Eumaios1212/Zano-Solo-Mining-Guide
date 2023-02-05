@@ -29,7 +29,9 @@ Since Ubuntu doesn't come with AMD's OpenCL driver, which is necessary for minin
    wget https://repo.radeon.com/amdgpu-install/22.40/ubuntu/jammy/amdgpu-install_5.4.50401-1_all.deb
    ```
    
-   Then install the installer: [^1]
+   Now, if you already have any AMD drivers installed ****other than 22.40****, you'll need a few extra steps, provided in the following footenote [^1]. 
+   
+   If there are no other AMD drivers on your rig, install the installer: 
    
    ```
    sudo apt install ./amdgpu-install_5.4.50401-1_all.deb
@@ -69,7 +71,7 @@ Since Ubuntu doesn't come with AMD's OpenCL driver, which is necessary for minin
    <img src="images/amd-clinfo.png" width="800">
    </div>
 
-## Step 2: Installing & Running Wildrig Miner
+## Step 2: Install & Run Wildrig Miner
 
 Currently, Wildrig is the only miner compatible with AMD GPUs. With Wildrig, however, direct solo mining isn't possible. We'll thus be mining through Newpool, which has a solo mining option. [^3]
 
@@ -85,19 +87,14 @@ Within it, download Wildrig:
 wget https://github.com/andru-kun/wildrig-multi/releases/download/0.36.6b/wildrig-multi-linux-0.36.6b.tar.xz
 ```
 
-Extract the .tar file:
+Extract and then remove original .tar file:
 
 ```
 tar -xf wildrig-multi-linux-0.36.6b.tar.xz
-```
-
-Remove the original .tar file:
-
-```
 rm wildrig-multi-linux-0.36.6b.tar.xz
 ```
 
-You're ready to begin mining. Give the following command in your Wildrig directory, substituting your own address for "wallet_address":[^4]
+You're ready to begin mining. Give the following command in your `wildrig` directory, substituting your own address for "wallet_address":[^4]
 
 ```
 sudo ./wildrig-multi --print-full --algo progpowz -o stratum+tcp://minenice.newpool.pw:1287 -u solo:wallet_address.ZanoSolo -p x

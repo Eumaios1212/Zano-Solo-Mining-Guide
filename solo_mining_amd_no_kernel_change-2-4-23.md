@@ -11,10 +11,11 @@ Since Ubuntu doesn't come with AMD's OpenCL driver, which is necessary for minin
    
    ```
    sudo apt update
+   sudo apt upgrade
    ```
    
    ```
-   sudo apt upgrade
+   
    ```
    
    a) If running Ubuntu 20.04 LTS:

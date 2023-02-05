@@ -110,7 +110,6 @@ Now go to [Newpool](https://newpool.pw/zano/#worker_stats) and enter your wallet
 </div>
 
 <div>
-<div align=center>
 <h1>Congratulations, you're solo mining Zano!<h1>
 </div>
 

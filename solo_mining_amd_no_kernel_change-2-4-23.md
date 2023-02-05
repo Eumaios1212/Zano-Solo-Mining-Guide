@@ -34,8 +34,14 @@ Since Ubuntu doesn't come with AMD's OpenCL driver, which is necessary for minin
    ```
    sudo apt install ./amdgpu-install_5.4.50401-1_all.deb
    ```
+   
+   Lastly, enable the AMD proprietary repository:
+   
+   ```
+   sudo sed -i 's/#deb/deb/g' /etc/apt/sources.list.d/amdgpu-proprietary.list 
+   ```
 
-2. If successful, the driver can now be installed:
+2. If everything went smoothly, the driver can now be installed:
    
    ```
    amdgpu-install --opencl=legacy,rocr --usecase=workstation,graphics --no-32

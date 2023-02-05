@@ -21,12 +21,22 @@ In order to successfully begin mining with an AMD GPU, one must use very specifi
    sudo apt upgrade
    ```
    
-   ```
-   wget http://repo.radeon.com/amdgpu-install/22.20/ubuntu/focal/amdgpu-install_22.20.50200-1_all.deb
-   ```
+   a) If running Ubuntu 20.04 LTS:
    
    ```
-   sudo apt install ./amdgpu-install_22.20.50200-1_all.deb
+   wget https://repo.radeon.com/amdgpu-install/22.40/ubuntu/focal/amdgpu-install_5.4.50401-1_all.deb
+   ```
+   
+   b) If running Ubuntu 22.04 LTS 0r 22.10:
+   
+   ```
+   wget https://repo.radeon.com/amdgpu-install/22.40/ubuntu/jammy/amdgpu-install_5.4.50401-1_all.deb
+   ```
+   
+   Then install the installer:
+   
+   ```
+   sudo apt install ./amdgpu-install_5.4.50401-1_all.deb
    ```
 
 2. If successful, the driver can now be installed:

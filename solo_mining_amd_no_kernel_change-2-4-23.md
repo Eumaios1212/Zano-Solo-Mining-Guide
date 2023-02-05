@@ -3,13 +3,9 @@
 <h1>Solo Mining with AMD (Ubuntu)<h1>
 </div>
 
-If your rig runs AMD GPUs, you will need to use Wildrig miner, which is currently the only one that works with AMD. With Wildrig, however, direct solo mining isn't possible. So we'll thus be mining through Newpool, which has a solo mining option.[^1]
-
 ## Step 1: AMD Driver Installation
 
-Since Ubuntu doesn't come with AMD's OpenCL driver, which is necessary for mining, you'll need to install that. 
-
-In order to successfully begin mining with an AMD GPU, one must use very specific driver software (AMD 22.40).
+Since Ubuntu doesn't come with AMD's OpenCL driver, which is necessary for mining, you'll need to install that. But it also requires ****very**** specific AMD driver software (22.40).  We have found no other that successfully installs.
 
 1. First, we must get the driver installer itself. Go to your Downloads directory and give the following commands:
    
@@ -55,7 +51,7 @@ In order to successfully begin mining with an AMD GPU, one must use very specifi
    sudo apt install clinfo
    ```
    
-   Check for your GPU: [^2]
+   Check for your GPU: [^1]
    
    ```
    sudo clinfo
@@ -68,6 +64,8 @@ In order to successfully begin mining with an AMD GPU, one must use very specifi
    </div>
 
 ## Step 2: Installing & Running Wildrig Miner
+
+Currently, Wildrig is the only miner compatible with AMD GPUs. With Wildrig, however, direct solo mining isn't possible. We'll thus be mining through Newpool, which has a solo mining option. [^2]
 
 Create a directory for Wildrig within your main Zano directory:
 
@@ -105,7 +103,7 @@ The miner should start, displaying something like this:
 <img src="images/amd-wildrig_running.png" width="800">
 </div>
 
-Now go to https://newpool.pw/zano/#worker_stats and enter your wallet address; you should see your miner stats:
+Now go to [Newpool]([Merged Mining by Muscleman](https://newpool.pw/zano/#worker_stats)) and enter your wallet address; you should see your miner stats:
 
 <div>
 <img src="images/amd-newpool_solo_mining.png" width="800">
@@ -116,8 +114,8 @@ Now go to https://newpool.pw/zano/#worker_stats and enter your wallet address; y
 <h1>Congratulations, you're solo mining Zano!<h1>
 </div>
 
-[^1]: Be aware that Newpool has a 1.0% pool fee.
+[^1]: If you don't include `sudo` in this command, it's likely that your GPU will not be displayed under devices.
 
-[^2]: If you don't include `sudo` in this command, it's likely that your GPU will not be displayed under devices.
+[^2]: Be aware that Newpool has a 1.0% pool fee.
 
 [^3]: Note again the need to give `sudo` here. Also, the port 1287 is used here, which is for high end graphics cards such as RX 470, 480, 570, 580, VEGA 56/64 and better. Port 1157 should be used for mid- and low-grade GPUs such as RX 460, 550, and 560.

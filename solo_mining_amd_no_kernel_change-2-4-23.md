@@ -119,28 +119,7 @@ Now go to [Newpool](https://newpool.pw/zano/#worker_stats) and enter your wallet
 <h1>Congratulations, you're solo mining Zano!<h1>
 </div>
 
-[^1]: If you already have any AMD driver installed other than 22.40, you'll need to here take the following steps. 
-
-Uninstall driver: 
-
-```
-amdgpu-install --uninstall
-```
-
-Install the debian package (i.e., what would have been your next step above):
-
-```
-sudo apt install ./amdgpu-install_5.4.50401-1_all.deb
-```
-
-Give:
-
-```
-sudo apt update
-sudo apt autoremove
-```
-
-You can now proceed to enabling the AMD proprietary repository. 
+[^1]: If you already have any AMD driver installed other than 22.40, you'll need to here take the following steps. Uninstall driver: `amdgpu-install --uninstall`. Install the debian package (i.e., what would have been your next step above): `sudo apt install ./amdgpu-install_5.4.50401-1_all.deb`. Give: `sudo apt update` & `sudo apt autoremove`. You can now proceed to enabling the AMD proprietary repository. 
 
 [^2]: If you don't include `sudo` in this command, it's likely that your GPU will not be displayed under devices.
 

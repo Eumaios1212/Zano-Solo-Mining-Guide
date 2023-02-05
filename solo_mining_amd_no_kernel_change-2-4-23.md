@@ -120,4 +120,4 @@ Now go to https://newpool.pw/zano/#worker_stats and enter your wallet address; y
 
 [^2]: If you don't include `sudo` in this command, it's likely that your GPU will not be displayed under devices.
 
-[^4]: Note again the need to give `sudo` here. Also, the port 1287 is used here, which is for high end graphics cards such as RX 470, 480, 570, 580, VEGA 56/64 and better. Port 1157 should be used for mid- and low-grade GPUs such as RX 460, 550, and 560.
+[^3]: Note again the need to give `sudo` here. Also, the port 1287 is used here, which is for high end graphics cards such as RX 470, 480, 570, 580, VEGA 56/64 and better. Port 1157 should be used for mid- and low-grade GPUs such as RX 460, 550, and 560.

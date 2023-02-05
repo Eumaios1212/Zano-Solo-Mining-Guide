@@ -119,7 +119,7 @@ Now go to [Newpool](https://newpool.pw/zano/#worker_stats) and enter your wallet
 <h1>Congratulations, you're solo mining Zano!<h1>
 </div>
 
-[^1]: If you already have any AMD driver installed other than 22.40, you'll need to here take the following steps.
+[^1]: If you already have any AMD driver installed other than 22.40, you'll need to here take the following steps. 
 
 Uninstall driver: 
 

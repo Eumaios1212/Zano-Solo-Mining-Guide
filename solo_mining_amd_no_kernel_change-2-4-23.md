@@ -28,7 +28,7 @@ Since Ubuntu doesn't come with AMD's OpenCL driver, which is necessary for minin
    
    Now, if you already have any AMD drivers installed ****other than 22.40****, you'll need a few extra steps, provided in the following footenote [^1]. 
    
-   If there are no other AMD drivers on your rig, install the installer: 
+   If there are no other AMD drivers on your rig, proceed to install the driver installer: 
    
    ```
    sudo apt install ./amdgpu-install_5.4.50401-1_all.deb

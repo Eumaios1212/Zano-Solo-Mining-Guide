@@ -121,26 +121,26 @@ Now go to [Newpool](https://newpool.pw/zano/#worker_stats) and enter your wallet
 
 [^1]: If you already have any AMD driver installed other than 22.40, you'll need to here take the following steps.
 
-(a) Uninstall driver: 
+Uninstall driver: 
 
 ```
 amdgpu-install --uninstall
 ```
 
-(b) Install the debian package (i.e., what would have been your next step above):
+Install the debian package (i.e., what would have been your next step above):
 
 ```
 sudo apt install ./amdgpu-install_5.4.50401-1_all.deb
 ```
 
-(c) Give:
+Give:
 
 ```
 sudo apt update
 sudo apt autoremove
 ```
 
-(d) You can now proceed to enabling the AMD proprietary repository. 
+You can now proceed to enabling the AMD proprietary repository. 
 
 [^2]: If you don't include `sudo` in this command, it's likely that your GPU will not be displayed under devices.
 

@@ -40,15 +40,14 @@ Since Ubuntu doesn't come with AMD's OpenCL driver, which is necessary for minin
    sudo sed -i 's/#deb/deb/g' /etc/apt/sources.list.d/amdgpu-proprietary.list 
    ```
 
-2. If everything went smoothly, the driver can now be installed:
+2. If everything went smoothly, the driver can now be installed and the rig rebooted:
    
    ```
    amdgpu-install --opencl=legacy,rocr --usecase=workstation,graphics --no-32
-   ```
-   
-   ```
    sudo reboot
    ```
+   
+   
 
 3. To determine whether the driver was properly installed, we need the application ****clinfo****:
    

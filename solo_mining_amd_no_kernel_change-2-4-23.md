@@ -91,7 +91,7 @@ Remove the original .tar file:
 rm wildrig-multi-linux-0.36.6b.tar.xz
 ```
 
-You're ready to begin mining. Give the following command in your Wildrig directory, substituting your own address for "wallet address":[^3]
+You're ready to begin mining. Give the following command in your Wildrig directory, substituting your own address for "wallet_address":[^3]
 
 ```
 sudo ./wildrig-multi --print-full --algo progpowz -o stratum+tcp://minenice.newpool.pw:1287 -u solo:wallet_address.ZanoSolo -p x

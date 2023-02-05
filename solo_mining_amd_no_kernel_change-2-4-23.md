@@ -23,7 +23,7 @@ Since Ubuntu doesn't come with AMD's OpenCL driver, which is necessary for minin
    wget https://repo.radeon.com/amdgpu-install/22.40/ubuntu/focal/amdgpu-install_5.4.50401-1_all.deb
    ```
    
-   b) If running Ubuntu 22.04 LTS 0r 22.10:
+   b) If running Ubuntu 22.04 LTS or 22.10:
    
    ```
    wget https://repo.radeon.com/amdgpu-install/22.40/ubuntu/jammy/amdgpu-install_5.4.50401-1_all.deb

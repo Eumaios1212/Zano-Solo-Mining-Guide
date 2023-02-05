@@ -103,7 +103,7 @@ The miner should start, displaying something like this:
 <img src="images/amd-wildrig_running.png" width="800">
 </div>
 
-Now go to [Newpool]([Merged Mining by Muscleman](https://newpool.pw/zano/#worker_stats))  and enter your wallet address; you should see your miner stats:
+Now go to [Newpool]([Newpool](https://newpool.pw/zano/#worker_stats))  and enter your wallet address; you should see your miner stats:
 
 <div>
 <img src="images/amd-newpool_solo_mining.png" width="800">

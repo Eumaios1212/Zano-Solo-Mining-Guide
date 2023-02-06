@@ -28,36 +28,29 @@ Since Ubuntu doesn't come with AMD's OpenCL driver, which is necessary for minin
    
    Now, if you already have any AMD drivers installed ****other than 22.40****, you'll need a few extra steps, provided in the following footenote [^1]. 
    
-   If there are no other AMD drivers on your rig, proceed to install the driver installer: 
+   If there are no other AMD drivers on your rig, proceed to install the driver installer and enable the proprietary repository: 
    
    ```
    sudo apt install ./amdgpu-install_5.4.50401-1_all.deb
-   ```
-   
-   Lastly, enable the AMD proprietary repository:
-   
-   ```
-   sudo sed -i 's/#deb/deb/g' /etc/apt/sources.list.d/amdgpu-proprietary.list 
+   sudo sed -i 's/#deb/deb/g' /etc/apt/sources.list.d/amdgpu-proprietary.list  
    ```
 
-2. If everything went smoothly, the driver can now be installed and the rig rebooted:
+2. If everything went smoothly, the driver can now be installed:
    
    ```
    amdgpu-install --opencl=legacy,rocr --usecase=workstation,graphics --no-32
-   sudo reboot
    ```
    
+   If successful, reboot:
    
+   ```
+   sudo reboot
+   ```
 
-3. To determine whether the driver was properly installed, we need the application ****clinfo****:
+3. To determine whether the driver was properly installed, we need the application ****clinfo****. Install that, and then check for your GPU: [^2]
    
    ```
    sudo apt install clinfo
-   ```
-   
-   Check for your GPU: [^2]
-   
-   ```
    sudo clinfo
    ```
    

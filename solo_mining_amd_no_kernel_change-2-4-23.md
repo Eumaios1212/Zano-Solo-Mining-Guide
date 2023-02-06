@@ -1,5 +1,5 @@
 <div align=center>
-<a href="https://freeimage.host/"><img src="https://iili.io/HA8wRPS.png" alt="HA8wRPS.png" border="0" /></a>
+<img src="zano_icon.png" width="400">
 <h1>Solo Mining with AMD (Ubuntu)<h1>
 </div>
 

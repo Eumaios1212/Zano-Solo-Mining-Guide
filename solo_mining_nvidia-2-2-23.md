@@ -70,8 +70,7 @@ Note the above has two important adjustments:
 If you do not place your receive address there, you may get an error such as the following:
 
 <div>
-<div align=center>
-<a href="https://freeimage.host/"><img src="https://iili.io/HABtOzX.png" alt="HABtOzX.png" border="0" /></a>
+<img src="images/nvidia-wrong_wallet.png" width="800">
 </div>
 
 <div>
@@ -82,18 +81,19 @@ If you do not place your receive address there, you may get an error such as the
 But if there are no other problems, the daemon should start and you'll see the following screens:
 
 <div>
-<a href="https://freeimage.host/"><img src="https://iili.io/HAnpVG1.png" alt="HAnpVG1.png" border="0" /></a>
+<img src="images/nvidia-daemon1.png" width="800">
 </div>
 
 <div>
-<a href="https://freeimage.host/"><img src="https://iili.io/HACYF5J.png" alt="HACYF5J.png" border="0" /></a>
+<img src="images/nvidia-daemon2.png" width="800">
 </div>
 
 <div>
-<a href="https://freeimage.host/"><img src="https://iili.io/HAo7EDx.png" alt="HAo7EDx.png" border="0" /></a></div>
+<img src="images/nvidia-daemon3.png" width="800">
+</div>
 
 <div>
-<a href="https://freeimage.host/"><img src="https://iili.io/HACYEge.png" alt="HACYEge.png" border="0" /></a>
+<img src="images/nvidia-daemon4.png" width="800">
 </div>
 
 ## Step 4: Starting TT-Miner
@@ -109,7 +109,7 @@ sudo ubuntu-drivers devices
 You should see something like the following:
 
 <div>
-<a href="https://freeimage.host/"><img src="https://iili.io/HAnFeov.png" alt="HAnFeov.png" border="0" /></a>
+<img src="images/nvidia-installed_drivers.png" width="800">
 </div>
 
 If you already have proprietary drivers, you can skip the next three sub-steps.
@@ -147,13 +147,13 @@ Give the command:
 Your miner should start, displaying something like this:
 
 <div>
-<a href="https://freeimage.host/"><img src="https://iili.io/HAnj3fs.png" alt="HAnj3fs.png" border="0" /></a>
+<img src="images/nvidia-ttminer.png" width="800">
 </div>
 
 And if you switch to the terminal with your daemon running, you should now see this:
 
 <div>
-<a href="https://freeimage.host/"><img src="https://iili.io/HAnw5CX.png" alt="HAnw5CX.png" border="0" /></a>
+<img src="images/nvidia-daemon_mining.png" width="800">
 </div>
 
 <div>
@@ -163,6 +163,4 @@ And if you switch to the terminal with your daemon running, you should now see t
 
 [^1]: This guide assumes you've already installed, and can use, a CLI wallet and its daemon. If you haven't, see those guides [here](https://docs.zano.org/docs/install-a-zano-cli-wallet-ubuntu) and [here](https://docs.zano.org/docs/using-a-zano-cli-wallet), respectively.  
 
-[^2]: If you get the following error, you'll need to install Cuda:
-
-./TT-Miner: error while loading shared libraries: libcuda.so.1: cannot open shared object file: No such file or directory.
+[^2]: If you get the following error, you'll need to install Cuda: `./TT-Miner: error while loading shared libraries: libcuda.so.1: cannot open shared object file: No such file or directory.`

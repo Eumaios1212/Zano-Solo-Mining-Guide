@@ -64,10 +64,11 @@ Since Ubuntu doesn't come with AMD's OpenCL driver, which is necessary for minin
 
 Currently, Wildrig is the only miner compatible with AMD GPUs. With Wildrig, however, direct solo mining isn't possible. We'll thus be mining through Newpool, which has a solo mining option. [^3]
 
-Create a directory for Wildrig within your main Zano directory:
+Create a directory for Wildrig within your main Zano directory, and enter it:
 
 ```
 mkdir wildrig
+cd wildrig
 ```
 
 Within it, download Wildrig:

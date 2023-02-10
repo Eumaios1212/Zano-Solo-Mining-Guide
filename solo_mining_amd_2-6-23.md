@@ -102,8 +102,6 @@ The miner should start and displaying your statistics:
 <img src="images/amd-wildrig_running.png" width="800">
 </div>
 
-
-
 <div>
 <h1>Congratulations, you're solo mining Zano!<h1>
 </div>

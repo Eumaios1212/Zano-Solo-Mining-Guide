@@ -100,7 +100,7 @@ Give the following command in your wildrig directory, substituting your own addr
 sudo ./wildrig-multi --print-full --algo progpowz --protocol ethproxy -u wallet_address -o 127.0.0.1:11555 -w worker1 -p x
 ```
 
-The miner should start and displaying your statistics:
+The miner should start and display your statistics:
 
 <div>
 <img src="images/amd-wildrig_running.png" width="800">

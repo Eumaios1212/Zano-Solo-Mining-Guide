@@ -90,7 +90,11 @@ tar -xf wildrig-multi-linux-0.36.6b.tar.xz
 rm wildrig-multi-linux-0.36.6b.tar.xz
 ```
 
-Once the zanod is synced, you're ready to begin mining. Give the following command in your wildrig directory, substituting your own address for "wallet_address":[^4]
+Once zanod is synced and you see the following screen, you're ready to begin mining. 
+
+![](images/amd-daemon_synced.png)
+
+Give the following command in your wildrig directory, substituting your own address for "wallet_address":[^4]
 
 ```
 sudo ./wildrig-multi --print-full --algo progpowz --protocol ethproxy -u wallet_address -o 127.0.0.1:11555 -w worker1 -p x

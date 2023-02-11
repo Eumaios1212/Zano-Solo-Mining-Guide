@@ -96,10 +96,10 @@ Since Ubuntu doesn't come with AMD's OpenCL driver, which is necessary for minin
 
 ## Step 4: Starting Wildrig Miner
 
-Once your node is fully synced, stop it (ctl+c). In the same terminal, restart `zanod` with the following flags:
+Once your node is fully synced, stop it (ctl+c). In the same terminal, restart `zanod` with the following flags, substituting your wallet address for        "<YOUR_WALLET_ADDRESS>"
 
 ```
-./zanod --stratum --stratum-bind-port=11555
+./zanod --stratum --stratum-bind-port=11555 --stratum-miner-address=<YOUR_WALLET_ID>
 ```
 
 The daemon should start, displaying this screen. 
@@ -108,7 +108,7 @@ The daemon should start, displaying this screen.
 
 You're ready to begin mining. 
 
-Return to your wildrig directory and run Wildrig, substituting your wallet address for     "<YOUR_WALLET_ID>" :[^5]
+Return to your wildrig directory and run Wildrig, again substituting your wallet address for "<YOUR_WALLET_ID>" :[^5]
 
 ```
 cd wildrig

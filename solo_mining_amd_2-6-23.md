@@ -60,9 +60,7 @@ Since Ubuntu doesn't come with AMD's OpenCL driver, which is necessary for minin
    <img src="images/amd-clinfo.png" width="800">
    </div>
 
-## Step 2: Install & Run Wildrig Miner
-
-Currently, Wildrig is the only miner compatible with AMD GPUs, so we will be using that. [^3]
+## Step 2: Install & Run Wildrig Miner[^3]
 
 Enter your Zano directory, and start `zanod` with the following command:
 

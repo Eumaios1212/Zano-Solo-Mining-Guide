@@ -60,7 +60,11 @@ sudo ubuntu-drivers devices
 
 You should see something like the following:
 
-![](images/nvidia-installed_drivers.png)
+<div>
+<img src="images/nvidia-installed_drivers.png" width="800">
+</div>
+
+</div>
 
 If you already have proprietary drivers, you can skip the next three sub-steps.
 

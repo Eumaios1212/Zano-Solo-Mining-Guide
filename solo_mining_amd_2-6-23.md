@@ -96,7 +96,7 @@ Since Ubuntu doesn't come with AMD's OpenCL driver, which is necessary for minin
 
 ## Step 4: Starting Wildrig Miner
 
-Once your node is fully synced, stop it (ctl+c). In the same terminal, restart `zanod` with the following flags, substituting your wallet address for        "<YOUR_WALLET_ADDRESS>"
+Once your node is fully synced, stop it (ctl+c). In the same terminal, restart `zanod` with the following flags, substituting your wallet address for        "<YOUR_WALLET_ID>"
 
 ```
 ./zanod --stratum --stratum-bind-port=11555 --stratum-miner-address=<YOUR_WALLET_ID>
@@ -104,7 +104,9 @@ Once your node is fully synced, stop it (ctl+c). In the same terminal, restart `
 
 The daemon should start, displaying this screen. 
 
-![](images/amd-daemon_synced.png)
+<div>
+<img src="images/amd-daemon_synced.png" width="800">
+</div>
 
 You're ready to begin mining. 
 
@@ -112,7 +114,7 @@ Return to your wildrig directory and run Wildrig, again substituting your wallet
 
 ```
 cd wildrig
-sudo ./wildrig-multi --print-full --algo progpowz --protocol ethproxy -u <YOUR_WALLET_ID> -o 127.0.0.1:11555 -w worker1 -p x
+sudo ./wildrig-multi --print-full --algo progpowz --protocol ethproxy -u miner -o 127.0.0.1:11555 -w worker1 -p x
 ```
 
 The miner should start, displaying your statistics:
@@ -123,7 +125,9 @@ The miner should start, displaying your statistics:
 
 And if you switch to the terminal with your daemon running, you should now see this:
 
-![](images/nvidia-daemon_mining.png)
+<div>
+<img src="images/nvidia-daemon_mining.png" width="800">
+</div>
 
 <div>
 <h1>Congratulations, you're solo mining Zano!<h1>

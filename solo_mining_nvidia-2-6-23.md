@@ -152,7 +152,6 @@ And if you switch to the terminal with your daemon running, you should now see t
 </div>
 
 <div>
-<div align=center>
 <h1>Congratulations, you're solo mining Zano!<h1>
 </div>
 

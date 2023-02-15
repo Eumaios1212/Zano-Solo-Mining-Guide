@@ -98,7 +98,7 @@ Once your node is fully synced, stop it (`ctl+c`). In the same terminal, restart
 
 Note the above has two important adjustments from what is given in `ZANO-SOLO.SH`:
 
-- You must account for Linux, substituing `zanode.exe` with `./zanod`. 
+- You must account for Linux, substituing `zanod.exe` with `./zanod`. 
 
 - You must replace `<YOUR_WALLET_ID>`, with your wallet's **receive address** (note this is neither your rig nor wallet name).
 
@@ -113,19 +113,10 @@ If you do not place your receive address there, you may get an error such as the
 
 </div>
 
-But if there are no other problems, the daemon should start, displaying these screens:
+But if there are no other problems, the daemon should start, eventually confiming synchronization:
 
-<div>
-<img src="images/nvidia-daemon1.png" width="800">
-</div>
 
-<div>
-<img src="images/nvidia-daemon2.png" width="800">
-</div>
 
-<div>
-<img src="images/nvidia-daemon3.png" width="800">
-</div>
 
 <div>
 <img src="images/nvidia-daemon4.png" width="800">
